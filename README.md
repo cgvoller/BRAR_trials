@@ -1,2 +1,2 @@
 # BRAR_trials
-Summarising Clinical Trials using Bayesian Response-adaptive Randomisation
+Summarising Clinical Trials that use Bayesian Response-adaptive Randomisation from ClinicalTrials.gov
