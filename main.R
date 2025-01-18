@@ -90,7 +90,7 @@ brar_plot <- studies %>%
     size = 0.8
   ) +
   theme(axis.text.x = element_text(angle = 90, vjust = 0.5))+
-  ggtitle("Clinical Trials using Bayesian Resposne-Adaptive Randomisation")
+  ggtitle("Clinical Trials using Bayesian Response-Adaptive Randomisation")
 
 width <- 15
 height <- 10
