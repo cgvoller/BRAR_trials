@@ -41,8 +41,8 @@ packages <-
     "gridExtra"
   )
 
-if (length(packages[!(packages %in% installed.packages()[, "Package"])]))
-  install.packages(packages[!(packages %in% installed.packages()[, "Package"])])
+# if (length(packages[!(packages %in% installed.packages()[, "Package"])]))
+#   install.packages(packages[!(packages %in% installed.packages()[, "Package"])])
 # Load packages
 lapply(packages, library, character.only = TRUE)
 
